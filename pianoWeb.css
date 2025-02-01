@@ -1,0 +1,217 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-style: normal; */
+}
+
+body{
+    background-image: url(pianofondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 3rem 2rem;
+}
+
+.menu{ 
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    li{
+        text-align: center;
+        float: left;
+        display: flex;
+    }
+    
+    li a{
+        color: white;
+        padding: 12.5px;
+        text-decoration: none;
+    }
+    
+    li a:hover{
+        transition: 0.6s;
+        color: rgb(0, 140, 255);
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+}
+
+
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+header h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fotoInicial{
+    width: 450px;
+    border-radius: 1.5rem;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.fotoInicial:hover{
+    box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.5);
+    transition: box-shadow 0.6s ease;  
+    cursor: pointer;
+}
+
+.presentacion{
+    display: flex;
+    font-size: large;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+p{
+    text-align: justify;
+    justify-content: center;
+    color: #fff;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+div:hover{
+    box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.5);
+    transition: box-shadow 0.6s ease;
+    cursor: pointer;
+}
+
+.trayectoria{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    font-size: large;
+    padding: 1.5rem;
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+}
+
+.pedagogia{
+    font-size: 1.2rem;
+    margin: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.cursos{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+ul{
+    text-align: justify;
+    padding-left: 6rem;
+    font-size: 1.2rem;
+}
+
+.galeria{
+    width: 100%;
+    max-width: 1300px;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 60px;
+}
+
+.galeria img{
+    object-fit: cover;
+    width: 95%;
+    height: 95%;
+}
+
+.galeria img:hover{
+    transform: scale(1.25);
+    transition: 0.6s ease;
+}
+
+.datosDeContacto{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: larger;
+}
+
+
+.whats{
+    width: 50px;
+    display: flex;
+    float: left;
+}
+
+.mail{
+    width: 50px;
+    display: flex;
+    float: left;
+}
+
+.datosDeContacto a{
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #fff;
+}
+
+.datosDeContacto a:hover{
+    transition: color 0.3s ease;
+    color: rgb(0, 140, 255);
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color:#fff;
+}
+
+footer section {
+    float: right;
+    color: rgb(255, 255, 255);
+}
+
+.piedepagina{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.cr {
+    font-size: 1rem;
+}
+
+footer a{
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;   
+}
+
+footer a:hover {
+    color: rgb(0, 140, 255);
+    transition: color 0.3s ease;
+}
