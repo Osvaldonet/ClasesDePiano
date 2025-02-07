@@ -209,9 +209,10 @@ footer section {
 footer a{
     font-size: 1rem;
     color: #fff;
-    text-decoration: none;  
+    text-decoration: none;   
     margin: .5rem
 }
+
 
 footer a:hover {
     color: rgb(0, 140, 255);
