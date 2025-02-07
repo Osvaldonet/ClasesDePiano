@@ -97,9 +97,8 @@ div:hover{
 }
 
 .trayectoria{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    display: flex;
+    width: 800px;
+    margin: 0 auto;
     font-size: large;
     padding: 1.5rem;
 }
@@ -110,10 +109,11 @@ div{
 }
 
 .pedagogia{
+    width: 800px;
+    margin: 0 auto;
+    font-size: large;
+    padding: 1.5rem;
     font-size: 1.2rem;
-    margin: 3rem;
-    margin-left: 0;
-    margin-right: 0;
     padding: 1.5rem;
     color: #fff;
 }
@@ -208,7 +208,8 @@ footer section {
 footer a{
     font-size: 1rem;
     color: #fff;
-    text-decoration: none;   
+    text-decoration: none;  
+    margin: .5rem
 }
 
 footer a:hover {
